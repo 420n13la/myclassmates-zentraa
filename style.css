@@ -1,3 +1,50 @@
-body{
-	
+body {
+  background-image: url(pattern.png);
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+header{
+  text-align: center;
+}
+h1{
+    font-size: 200%;
+  border: 2px dashed gold;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 15px 35px;
+}
+div.three-columns{
+  width:30%;
+  border: 2px solid white;
+  display: inline-block;
+}
+
+figure{
+  margin: 1px;
+}
+
+figcaption{
+  padding-bottom: 10px;
+}
+
+.thumbnail{
+  width: 100%;
+}
+
+#wrapper{
+  width: 80%;
+  text-align: center;
+  margin: 2em auto;
+}
+
+a{
+  color: gold;
+  text-decoration: underline overline;
+}
+
+footer{
+  text-align: center;
+  border-top: gold 2px dashed;
+  padding-top: 10px;
 }
